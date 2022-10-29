@@ -1,0 +1,23 @@
+{
+  "lang": "en",
+  "start": "Start to eat!",
+  "normal": "Normal Mode",
+  "endless": "Endless  Mode",
+  "practice": "Practice  Mode",
+  "eat-kano": "EatPaimon",
+  "game-title": "EatPaimon",
+  "game-intro1": "Paimon is hungry~~",
+  "game-intro2": "Try to eat them~~",
+  "time-up": "Time Up!",
+  "calculating": "calculating",
+  "score": "Score:",
+  "best": "Best:",
+  "again": "Try again!",
+  "home": "Back",
+  "text-level-1": "Paimon is still so hungry",
+  "text-level-2": "Emmm~ More please！",
+  "text-level-3": "that is enough! Thanks~~",
+  "text-level-4": "Amazing Score!!!!",
+  "text-level-5": "You are the GOD,man",
+  "time-over": "倒计时到了"
+}
