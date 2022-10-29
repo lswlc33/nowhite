@@ -6,7 +6,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         
         const LANGUAGES = [
             { regex: /^zh\b/, lang: 'zh' },
-            { regex: /.*/, lang: 'zh'}
+            { regex: /.*/, lang: 'en'}
         ]
 
         const lang = LANGUAGES.find(l => l.regex.test(navigator.language)).lang
