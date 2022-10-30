@@ -10,7 +10,7 @@
 
 小游戏：吃掉小派蒙
 
-示例1：[点击查看](paimon.雪中明月.ml)  
+示例1：[点击查看](https://paimon.雪中明月.ml)  
 
 示例2：[点击查看](https://lswlc33.github.io/nowhite/)
 
