@@ -82,15 +82,19 @@ function load_beginning(wait_time = 1){
     }, 1500);
 
     setTimeout(() => {
-        window.addEventListener("load", hide());
+        if (document.readyState === "complete") {
+            hide()
+        }else{
+            window.addEventListener("load", hide);
+        }
     }, 1500 + wait_time * 1000);
     
-    setTimeout(() => {
-        document.body.removeChild(beginning)
-    }, 2000 + wait_time * 1000);
-
     function hide() {
         beginning.style.opacity = 0
+        setTimeout(() => {
+            console.log('加载完成')
+            document.body.removeChild(beginning)
+        },500);
     }
 }
 
